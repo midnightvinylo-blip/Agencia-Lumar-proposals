@@ -3,155 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUMAR | Curolla Petit Hotel - Patrimonio Digital</title>
+    <title>Curolla Petit Hotel | Auditoría de Activos Digitales</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
         .font-cinzel { font-family: 'Cinzel', serif; }
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
         .reveal.active { opacity: 1; transform: translateY(0); }
     </style>
 </head>
-<body class="antialiased overflow-x-hidden">
+<body class="antialiased selection:bg-[#C5A059] selection:text-black">
 
     <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
         <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
         <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
-          <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
-          <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
-          <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
         </div>
     </nav>
 
     <section class="relative h-screen flex items-center justify-center overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Curolla Petit Hotel Hero">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Curolla Petit Hotel">
         <div class="absolute inset-0 bg-black/40"></div>
-        <div class="relative z-30 text-center px-6 reveal">
+        
+        <div class="relative z-30 text-center px-6">
             <h1 class="font-cinzel leading-tight">
-                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase">EL PATRIMONIO DEL CUROLLA PETIT HOTEL</span>
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase tracking-tighter">EL PATRIMONIO DEL CUROLLA PETIT HOTEL</span>
                 <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
             </h1>
-            <div class="mt-12 flex flex-col items-center">
-                <div class="w-px h-24 bg-gradient-to-b from-[#C5A059] to-transparent"></div>
-            </div>
         </div>
+
         <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
     </section>
 
-    <section id="auditoria" class="py-32 bg-black px-6 md:px-20 relative">
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
             <div class="reveal">
-                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-10 tracking-widest uppercase">Arquitectura Operativa bajo examen</h2>
-                <p class="text-white/70 leading-relaxed mb-8 text-lg font-light">
-                    La soberanía de un hotel boutique en Palma no reside solo en su estética, sino en la precisión de su respuesta. Tras un análisis exhaustivo de su ecosistema digital, la auditoría revela una realidad técnica que exige atención inmediata.
-                </p>
-                <div class="grid grid-cols-2 gap-8 mb-10">
-                    <div class="border-l border-[#C5A059]/30 pl-6">
-                        <span class="block text-4xl font-cinzel text-[#C5A059] mb-2">68/100</span>
-                        <span class="text-[10px] tracking-[0.2em] text-white/50 uppercase">Rendimiento Técnico</span>
-                    </div>
-                    <div class="border-l border-[#C5A059]/30 pl-6">
-                        <span class="block text-4xl font-cinzel text-[#C5A059] mb-2">11%</span>
-                        <span class="text-[10px] tracking-[0.2em] text-white/50 uppercase">Capacidad No Aprovechada</span>
-                    </div>
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Diagnóstico de Competitividad</h2>
+                <h3 class="font-cinzel text-3xl md:text-4xl mb-10 leading-snug">EL ESTÁNDAR DEL SECTOR FRENTE A LA INFRAESTRUCTURA ACTUAL</h3>
+                <div class="space-y-6 text-white/70 font-light leading-relaxed">
+                    <p>La soberanía de un hotel boutique en Palma no reside solo en su arquitectura física, sino en la eficiencia de su presencia digital. Tras auditar los activos del Curolla Petit Hotel, la realidad técnica arroja una calificación de <strong>68/100</strong>.</p>
+                    <p>Mientras competidores locales sacrifican la conversión por diseños estéticos pero ineficientes, ese 32% de distancia competitiva representa una barrera invisible que interrumpe el viaje del huésped. Su infraestructura actual no solo hospeda información; está permitiendo una pérdida técnica estimada del 11% en el procesamiento de su propuesta de valor.</p>
                 </div>
-                <p class="text-white/60 text-sm italic">
-                    Su infraestructura actual actúa como una barrera invisible; un 32% de ineficiencia técnica que diluye la experiencia del huésped antes del primer contacto.
-                </p>
             </div>
-            <div class="relative group overflow-hidden border border-white/10 reveal">
-                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Diagnóstico Curolla">
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Operativo">
             </div>
         </div>
     </section>
 
-    <section id="impacto" class="py-32 bg-[#1A1A1A] px-6 md:px-20 relative">
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A]">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
-            <div class="order-2 md:order-1 relative group overflow-hidden border border-white/10 reveal">
-                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Capital Curolla">
+            <div class="reveal order-2 md:order-1 relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Estrategia de Capital">
             </div>
-            <div class="order-1 md:order-2 reveal">
-                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-10 tracking-widest uppercase">El Coste del Silencio Estratégico</h2>
-                <p class="text-white/70 leading-relaxed mb-8 text-lg font-light">
-                    Mientras la oferta hotelera en Palma se automatiza, la demora en la atención se traduce en una fuga constante de intención de reserva. No es solo un goteo de consultas sin responder; es la transferencia directa de su margen operativo hacia competidores con mayor agilidad técnica.
-                </p>
-                <div class="space-y-6">
-                    <div class="flex items-center space-x-6 bg-black/30 p-6 border border-white/5 hover:border-[#C5A059]/30 transition-colors">
-                        <span class="text-[#C5A059] font-cinzel text-2xl">02%</span>
-                        <span class="text-xs tracking-[0.2em] text-white/70 uppercase">Coste de Inacción Diaria (COI)</span>
-                    </div>
-                    <div class="flex items-center space-x-6 bg-black/30 p-6 border border-white/5 hover:border-[#C5A059]/30 transition-colors">
-                        <span class="text-[#C5A059] font-cinzel text-2xl">24/7</span>
-                        <span class="text-xs tracking-[0.2em] text-white/70 uppercase">Brecha de Disponibilidad Crítica</span>
-                    </div>
+            <div class="reveal order-1 md:order-2">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Análisis de Capital Operativo</h2>
+                <h3 class="font-cinzel text-3xl md:text-4xl mb-10 leading-snug">EL COSTO SILENCIOSO DE LA INACCIÓN DIGITAL</h3>
+                <div class="space-y-6 text-white/70 font-light leading-relaxed">
+                    <p>En el mercado de alto rendimiento, el silencio es una deuda. Hemos identificado un goteo constante de oportunidades que se evaporan cada noche: un impacto directo sobre la eficiencia operativa que suma <strong>18.200€ de beneficio neto perdido al año</strong>.</p>
+                    <p>Cada consulta sobre disponibilidad no resuelta en tiempo real o cada lead que encuentra fricción en su ecosistema digital es una reserva que Curolla Petit Hotel está financiando indirectamente a su competencia. Los negocios que han integrado inteligencia estratégica en 2025 están captando un 37% más de cuota de mercado digital, dejando atrás los modelos de gestión pasiva.</p>
                 </div>
-                <p class="mt-8 text-white/50 text-sm leading-relaxed">
-                    La inacción está financiando el crecimiento de su competencia. Cada reserva que muere en un formulario sin respuesta representa capital neto evaporado anualmente.
-                </p>
             </div>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
     </section>
 
-    <section id="evolucion" class="py-32 bg-black px-6 md:px-20 text-center relative overflow-hidden">
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-6 bg-black text-center">
         <div class="max-w-4xl mx-auto reveal">
-            <h2 class="font-cinzel text-4xl md:text-5xl text-[#C5A059] mb-12 tracking-widest uppercase leading-tight">Despliegue de Alto Rendimiento</h2>
-            <p class="text-white/70 text-xl font-light mb-16 leading-relaxed">
-                Transformamos la arquitectura pasiva de Curolla Petit Hotel en una estructura de conversión directa. Un sistema entrenado específicamente en su propuesta de valor para clasificar, resolver y vender sin intervención humana, garantizando una atención de élite ininterrumpida.
+            <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Arquitectura de Alto Rendimiento</h2>
+            <h3 class="font-cinzel text-4xl md:text-6xl mb-12 leading-tight">ASEGURAR EL LIDERAZGO DEL SECTOR</h3>
+            <p class="text-white/70 font-light text-lg mb-16 leading-relaxed max-w-2xl mx-auto">
+                No proponemos una mejora estética; desplegamos un reajuste de su arquitectura de ventas mediante un ecosistema de IA diseñado para la conversión directa y la recuperación de su margen de beneficio.
             </p>
             
-            <a href="mailto:info@agencialumar.es" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">
-                SOLICITAR DIAGNÓSTICO COMPLETO
+            <a href="https://wa.me/34722714078" target="_blank" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase">
+                Tomar el Liderazgo del Sector
             </a>
 
-            <div class="mt-20 pt-10 border-t border-white/5">
+            <div class="mt-20 border-t border-white/5 pt-10">
                 <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
-                <p class="text-white/60 text-[11px] italic uppercase tracking-widest">Incentivo Administrativo: Hasta 6000€ vía Kit Digital.</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 6000€ vía Kit Digital.</p>
             </div>
         </div>
     </section>
 
-    <footer class="bg-black py-24 border-t border-white/5 px-6">
-        <div class="max-w-7xl mx-auto text-center">
-            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-12 mx-auto" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
-            
-            <div class="mb-16">
-                <h3 class="font-cinzel text-[#C5A059] text-2xl tracking-widest mb-2">DAVID DÍAZ</h3>
-                <p class="text-white/50 text-[10px] tracking-[0.4em] uppercase">CEO — AGENCIA LUMAR</p>
-                <p class="text-white/40 text-[9px] tracking-[0.2em] uppercase mt-1">Experto en Estrategia e Infraestructura IA</p>
+    <footer class="bg-black pt-32 pb-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="reveal mb-20">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mx-auto mb-8" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+                <h4 class="font-cinzel text-[#C5A059] text-2xl font-bold tracking-widest mb-2">DAVID DÍAZ</h4>
+                <p class="text-white tracking-[0.4em] text-[10px] font-bold uppercase">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[10px] tracking-widest mt-2 uppercase">Experto en Estrategia e Infraestructura IA</p>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto mb-20 border-y border-white/5 py-12">
-                <div class="flex flex-col">
-                    <span class="text-[#C5A059] text-[9px] tracking-widest uppercase mb-4">Teléfono</span>
-                    <a href="tel:951870392" class="text-white/70 hover:text-white transition-colors text-xs font-light tracking-wider">951 870 392</a>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.2em] font-light text-white/60 reveal">
+                <div class="space-y-4">
+                    <p class="text-[#C5A059] font-bold">TELÉFONO</p>
+                    <a href="tel:951870392" class="hover:text-white transition-colors">951 870 392</a>
                 </div>
-                <div class="flex flex-col">
-                    <span class="text-[#C5A059] text-[9px] tracking-widest uppercase mb-4">WhatsApp</span>
-                    <a href="https://wa.me/34722714078" target="_blank" class="text-white/70 hover:text-white transition-colors text-xs font-light tracking-wider">722 714 078</a>
+                <div class="space-y-4">
+                    <p class="text-[#C5A059] font-bold">WHATSAPP</p>
+                    <a href="https://wa.me/34722714078" class="hover:text-white transition-colors">722 714 078</a>
                 </div>
-                <div class="flex flex-col">
-                    <span class="text-[#C5A059] text-[9px] tracking-widest uppercase mb-4">Digital</span>
-                    <a href="https://www.agencialumar.es" target="_blank" class="text-white/70 hover:text-white transition-colors text-xs font-light tracking-wider">agencialumar.es</a>
+                <div class="space-y-4">
+                    <p class="text-[#C5A059] font-bold">PRESENCIA</p>
+                    <a href="https://www.agencialumar.es" class="hover:text-white transition-colors uppercase">agencialumar.es</a>
                 </div>
-                <div class="flex flex-col">
-                    <span class="text-[#C5A059] text-[9px] tracking-widest uppercase mb-4">Corporativo</span>
-                    <a href="mailto:info@agencialumar.es" class="text-white/70 hover:text-white transition-colors text-xs font-light tracking-wider">info@agencialumar.es</a>
+                <div class="space-y-4">
+                    <p class="text-[#C5A059] font-bold">ESTRATEGIA</p>
+                    <a href="mailto:info@agencialumar.es" class="hover:text-white transition-colors uppercase">info@agencialumar.es</a>
                 </div>
             </div>
 
-            <p class="text-[9px] tracking-[0.5em] text-white/20 uppercase">
-                &copy; 2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
-            </p>
+            <div class="text-[9px] tracking-[0.4em] text-white/20 border-t border-white/5 pt-10 reveal">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
         </div>
     </footer>
 
     <script>
-        const observerOptions = {
-            threshold: 0.1
-        };
-
+        const observerOptions = { threshold: 0.1 };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
