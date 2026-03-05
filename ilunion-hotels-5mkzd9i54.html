@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | ILUNION Hotels Architecture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; overflow-x: hidden; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        ::selection { background: #C5A059; color: #000; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Ilunion Hotels Heritage">
+        <div class="absolute inset-0 bg-black/50"></div>
+        
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase tracking-tighter">EL PATRIMONIO DE ILUNION HOTELS</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+            <p class="mt-12 text-[#C5A059] font-cinzel tracking-[0.5em] text-[10px] reveal uppercase">Infraestructura de Alto Rendimiento 2026</p>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black relative">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-10 tracking-widest uppercase">Diagnóstico de Soberanía Digital</h2>
+                <div class="space-y-8 text-white/70 font-light leading-relaxed text-lg">
+                    <p>Mientras el sector hotelero compite en milisegundos para capturar la demanda directa, la infraestructura técnica de <span class="text-white border-b border-[#C5A059]/30">ILUNION Hotels</span> opera bajo una fricción invisible. El análisis de flujo de caja digital revela un estancamiento operativo crítico.</p>
+                    <p>La auditoría técnica arroja un <span class="text-[#C5A059] font-bold">Score de Rendimiento de 45/100</span>. No es una métrica de mantenimiento; es la evidencia de una barrera tecnológica que hoy actúa como el mayor cuello de botella para su rentabilidad anual.</p>
+                    <div class="pt-6">
+                        <div class="text-5xl font-cinzel text-[#C5A059]">45<span class="text-xl opacity-50">/100</span></div>
+                        <p class="text-[10px] tracking-[0.3em] uppercase mt-2 opacity-60">Capacidad Operativa Actual</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/10 reveal">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Técnico">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A] relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-32">
+                <div class="order-2 md:order-1 relative group overflow-hidden border border-white/10 reveal">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Impacto de Capital">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-10 tracking-widest uppercase">Análisis de Capital Desaprovechado</h2>
+                    <p class="text-white/70 font-light leading-relaxed text-lg mb-8">
+                        Cada hora de inacción tecnológica representa una transferencia de valor hacia la competencia. La arquitectura actual de ILUNION Hotels está permitiendo una <span class="text-white font-semibold uppercase tracking-wider">pérdida técnica anual del 23%</span> en su capacidad de captación directa.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div class="border-l border-[#C5A059]/30 pl-6 py-4">
+                            <div class="text-3xl font-cinzel text-white">23%</div>
+                            <p class="text-[10px] tracking-[0.2em] uppercase text-[#C5A059] mt-1">Fuga de Captación Anual</p>
+                        </div>
+                        <div class="border-l border-[#C5A059]/30 pl-6 py-4">
+                            <div class="text-3xl font-cinzel text-white">23%</div>
+                            <p class="text-[10px] tracking-[0.2em] uppercase text-[#C5A059] mt-1">Ineficiencia Operativa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+    </section>
+
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black text-center">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="font-cinzel text-3xl md:text-5xl text-[#C5A059] mb-8 tracking-widest uppercase">Arquitectura de Alto Rendimiento</h2>
+            <p class="text-white/60 font-light text-lg mb-16 leading-relaxed">
+                No proponemos una mejora estética, sino una reingeniería del flujo de conversión. Implementamos un despliegue de arquitectura líquida potenciado con Inteligencia Artificial diseñado para absorber la demanda, resolver la incertidumbre y cerrar reservas en tiempo real, transformando un activo defectuoso en una maquinaria de ventas soberana.
+            </p>
+            
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase">
+                Reservar Llamada Estratégica Ahora
+            </a>
+
+            <div class="mt-20 pt-10 border-t border-white/5">
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-24 px-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="text-center mb-20">
+                <div class="font-cinzel text-[#C5A059] text-xl tracking-[0.3em] mb-2 uppercase">David Díaz</div>
+                <div class="text-white/40 text-[10px] tracking-[0.4em] uppercase">CEO — AGENCIA LUMAR</div>
+                <div class="text-white/40 text-[10px] tracking-[0.2em] mt-1 uppercase">Experto en Estrategia e Infraestructura IA</div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 w-full text-center border-y border-white/5 py-12 mb-12">
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] mb-4 uppercase">Teléfono Fijo</p>
+                    <a href="tel:951870392" class="text-xs text-white/70 hover:text-white transition-colors">951 870 392</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] mb-4 uppercase">WhatsApp Business</p>
+                    <a href="https://wa.me/34722714078" class="text-xs text-white/70 hover:text-white transition-colors">722 714 078</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] mb-4 uppercase">Web Oficial</p>
+                    <a href="https://www.agencialumar.es" class="text-xs text-white/70 hover:text-white transition-colors">www.agencialumar.es</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] mb-4 uppercase">Email Corporativo</p>
+                    <a href="mailto:info@agencialumar.es" class="text-xs text-white/70 hover:text-white transition-colors">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <p class="text-[9px] tracking-[0.4em] text-white/30 uppercase">2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
