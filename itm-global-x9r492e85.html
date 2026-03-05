@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITM Global | Lumar Black Label</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black text-white selection:bg-[#C5A059] selection:text-black">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Lumar Hero">
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL ITM GLOBAL</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </header>
+
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-widest uppercase">Diagnóstico de Capital Digital</h2>
+                <div class="space-y-6 text-white/70 leading-relaxed font-light text-lg">
+                    <p>Tras someter a <span class="text-white font-semibold">ITM Global</span> a una auditoría técnica profunda mediante nuestro motor AuditEngine, los datos son inapelables: su ecosistema digital opera con una calificación de <span class="text-[#C5A059] font-bold">45/100</span>.</p>
+                    <p>Mientras su competencia optimiza cada milisegundo para dominar el mercado, su plataforma actual actúa como un ancla técnica que lastra cualquier esfuerzo de expansión comercial. Cada hora que el negocio permanece sin atención activa bajo esta infraestructura, un cliente potencial elige la agilidad de la competencia.</p>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Auditoría Lumar">
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-black to-[#1A1A1A]"></div>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-24">
+                <div class="order-2 md:order-1 reveal relative group overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Capital">
+                </div>
+                <div class="order-1 md:order-2 reveal text-right">
+                    <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-widest uppercase">Análisis de Flujo y Captación</h2>
+                    <div class="space-y-6 text-white/70 leading-relaxed font-light text-lg">
+                        <p>No nos enfrentamos a un problema de estética, sino a una parálisis operativa. Con un rendimiento estancado, la lentitud extrema de su sistema está ejecutando un impacto directo sobre la eficiencia operativa de ITM Global.</p>
+                        <p>Esta degradación técnica significa que su infraestructura digital está desechando el <span class="text-[#C5A059] font-bold text-2xl">23%</span> de su capacidad de captación anual. Operar bajo estos estándares no es solo una ineficiencia técnica; es una hemorragia de competitividad constante en su flujo de caja.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 reveal">
+                <div class="p-12 border border-white/5 bg-black/40 hover:border-[#C5A059]/30 transition-colors">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-4">45/100</div>
+                    <div class="text-[10px] tracking-[0.4em] text-white/50 uppercase">Score de Rendimiento Actual</div>
+                </div>
+                <div class="p-12 border border-white/5 bg-black/40 hover:border-[#C5A059]/30 transition-colors">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-4">23%</div>
+                    <div class="text-[10px] tracking-[0.4em] text-white/50 uppercase">Pérdida de Captación Anual</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-12 tracking-widest uppercase">Arquitectura de Alto Rendimiento</h2>
+            <div class="space-y-8 text-white/70 leading-relaxed font-light text-lg mb-16">
+                <p>En Agencia Lumar desplegamos soluciones impulsadas por IA que detienen la fuga operativa de inmediato. Reconstruimos su presencia digital bajo estándares de élite, sustituyendo estructuras deficientes por un ecosistema optimizado de captación 24/7.</p>
+                <p>El mercado no espera a las empresas que operan a mitad de su capacidad. Es el momento de tomar el control total de su soberanía tecnológica y escalar su rendimiento hacia la excelencia absoluta.</p>
+                
+                <div class="pt-8">
+                    <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                    <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+                </div>
+            </div>
+
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">
+                RESERVAR LLAMADA ESTRATÉGICA AHORA
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black py-24 px-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="mb-16">
+                <div class="font-cinzel text-[#C5A059] text-xl tracking-widest mb-2">DAVID DÍAZ</div>
+                <div class="text-xs tracking-[0.4em] text-white/40 uppercase mb-1">CEO — AGENCIA LUMAR</div>
+                <div class="text-[10px] tracking-[0.2em] text-white/30 uppercase">Experto en Estrategia e Infraestructura IA</div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 w-full pt-16 border-t border-white/5 text-[10px] tracking-[0.3em] text-white/50 uppercase">
+                <div class="flex flex-col gap-4">
+                    <span class="text-white/20">Teléfono</span>
+                    <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">951 870 392</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span class="text-white/20">WhatsApp</span>
+                    <a href="https://wa.me/34722714078" class="hover:text-[#C5A059] transition-colors">722 714 078</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span class="text-white/20">Digital</span>
+                    <a href="https://www.agencialumar.es" class="hover:text-[#C5A059] transition-colors">www.agencialumar.es</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span class="text-white/20">Email</span>
+                    <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <div class="mt-24 text-[9px] tracking-[0.5em] text-white/20 uppercase">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
