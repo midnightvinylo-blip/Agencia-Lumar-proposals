@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | Barcelo Hotel Group Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #000; color: #fff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Barcelo Hotel Group Patrimony">
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase tracking-tighter">EL PATRIMONIO DEL BARCELO HOTEL GROUP</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+            <p class="mt-12 text-[#C5A059] font-cinzel tracking-[0.5em] text-[10px] reveal">23% DE CAPTACIÓN QUE BARCELÓ HOTEL GROUP PIERDE ANUALMENTE</p>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-white mb-8">DIAGNÓSTICO DE FLUJO DE CAJA Y RENDIMIENTO</h2>
+                <div class="w-24 h-px bg-[#C5A059] mb-8"></div>
+                <p class="text-white/70 leading-relaxed mb-6 text-lg">
+                    Tras someter su ecosistema digital a nuestro motor AuditEngine, el diagnóstico para Barceló Hotel Group es irrefutable. Mientras el sector hotelero acelera hacia arquitecturas que capturan la demanda móvil con precisión, su plataforma actual muestra una latencia crítica.
+                </p>
+                <p class="text-white/70 leading-relaxed mb-10">
+                    Usted está operando con un score de rendimiento de <span class="text-[#C5A059] font-bold">45/100</span>. Esta barrera técnica actúa como un freno invisible, cediendo terreno orgánico frente a agregadores y competidores con infraestructuras más ágiles que procesan la intención de compra sin fricciones.
+                </p>
+                <div class="grid grid-cols-2 gap-8 border-t border-white/10 pt-10">
+                    <div>
+                        <p class="text-[#C5A059] font-cinzel text-3xl font-bold">45/100</p>
+                        <p class="text-white/40 text-[10px] tracking-widest uppercase mt-2">Score AuditEngine</p>
+                    </div>
+                    <div>
+                        <p class="text-[#C5A059] font-cinzel text-3xl font-bold">23%</p>
+                        <p class="text-white/40 text-[10px] tracking-widest uppercase mt-2">Pérdida de Captación Anual</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Arquitectura Hotelera">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div class="reveal order-2 md:order-1 relative group overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Capital">
+                </div>
+                <div class="reveal order-1 md:order-2">
+                    <h2 class="font-cinzel text-3xl md:text-4xl text-white mb-8">EL COSTE DE LA INACCIÓN DIGITAL</h2>
+                    <div class="w-24 h-px bg-[#C5A059] mb-8"></div>
+                    <p class="text-white/70 leading-relaxed mb-6">
+                        Un rendimiento del 45% no es solo una métrica; es una hemorragia de eficiencia operativa. En el mercado de reservas de lujo, la lentitud se traduce en el abandono inmediato del usuario hacia alternativas más eficientes.
+                    </p>
+                    <p class="text-white/70 leading-relaxed mb-8">
+                        Actualmente, la pérdida técnica del 23% anual en su capacidad de captación supone que su inversión en marketing está siendo saboteada por su propio código. Cada hora que el negocio opera sin atención activa y automatización 24/7, un cliente potencial elige a la competencia, degradando su autoridad de marca.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center border-b border-white/5 pb-4">
+                            <span class="text-white/80 text-sm">Capacidad operativa desaprovechada</span>
+                            <span class="text-[#C5A059] font-cinzel">23%</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/5 pb-4">
+                            <span class="text-white/80 text-sm">Impacto directo en eficiencia</span>
+                            <span class="text-[#C5A059] font-cinzel">Crítico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black text-center">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="font-cinzel text-3xl md:text-5xl text-white mb-10 tracking-tight">ARQUITECTURA DE ALTO RENDIMIENTO</h2>
+            <p class="text-white/70 text-lg leading-relaxed mb-12">
+                Nuestra intervención reconfigura el núcleo de Barceló Hotel Group para eliminar cuellos de botella y elevar la capacidad de procesamiento. Desplegamos agentes de IA diseñados para asistir al usuario en tiempo real, transformando el tráfico perdido en interacciones de alto valor y cerrando la brecha de rendimiento de forma definitiva.
+            </p>
+            
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">
+                RESERVAR LLAMADA ESTRATÉGICA AHORA
+            </a>
+
+            <div class="mt-20">
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-24 bg-black border-t border-white/5 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="flex justify-center mb-12">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            </div>
+            
+            <div class="mb-16">
+                <h3 class="font-cinzel text-[#C5A059] text-xl mb-2">DAVID DÍAZ</h3>
+                <p class="text-white/50 text-[10px] tracking-[0.3em] uppercase">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/30 text-[10px] tracking-[0.2em] uppercase mt-1">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16 max-w-5xl mx-auto text-[10px] tracking-[0.2em] text-white/40 uppercase">
+                <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">TEL: 951 870 392</a>
+                <a href="https://wa.me/34722714078" target="_blank" class="hover:text-[#C5A059] transition-colors">WHATSAPP: 722 714 078</a>
+                <a href="https://www.agencialumar.es" target="_blank" class="hover:text-[#C5A059] transition-colors">WWW.AGENCIALUMAR.ES</a>
+                <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">INFO@AGENCIALUMAR.ES</a>
+            </div>
+
+            <div class="text-white/20 text-[9px] tracking-[0.4em] uppercase">
+                © 2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
