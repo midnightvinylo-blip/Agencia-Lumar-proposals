@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #F5F5F1; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="WeSapiens Heritage">
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL WESAPIENS</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </header>
+
+    <section id="auditoria" class="py-32 px-10 bg-black relative">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-wider">DIAGNÓSTICO DE SOBERANÍA DIGITAL</h2>
+                <div class="space-y-6 text-white/70 text-lg leading-relaxed font-light">
+                    <p>La auditoría técnica de WeSapiens revela un score de rendimiento de <span class="text-[#C5A059] font-bold">30/100</span>. Mientras su institución proyecta autoridad, su infraestructura digital opera bajo un déficit crítico que compromete su legado.</p>
+                    <p>Actualmente, para los motores de búsqueda y para el 70% de sus visitantes, la plataforma se encuentra técnicamente ineficiente. No se trata de una deficiencia estética, sino de una arquitectura que no logra sostener el prestigio de su marca en el ecosistema digital contemporáneo.</p>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Técnico">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-10 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-24">
+                <div class="order-2 md:order-1 reveal relative group overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Impacto Financiero">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-wider">EL COSTE DE LA INACCIÓN</h2>
+                    <p class="text-white/70 text-lg leading-relaxed font-light mb-12">Mantener la estructura actual no es una decisión conservadora, es una financiación involuntaria de su propia pérdida de mercado. El rendimiento crítico del 30% tiene una traducción financiera directa sobre su liquidez y capacidad de captación.</p>
+                    <div class="grid grid-cols-1 gap-6">
+                        <div class="border border-[#C5A059]/30 p-8 bg-black/40">
+                            <div class="text-[10px] tracking-[0.3em] text-[#C5A059] uppercase mb-2">Pérdida Técnica de Captación</div>
+                            <div class="text-4xl font-cinzel text-white">30% ANUAL</div>
+                        </div>
+                        <div class="border border-[#C5A059]/30 p-8 bg-black/40">
+                            <div class="text-[10px] tracking-[0.3em] text-[#C5A059] uppercase mb-2">Impacto en Capital (COI)</div>
+                            <div class="text-4xl font-cinzel text-white">~79.200€ / AÑO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-10 bg-black">
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <h2 class="font-cinzel text-4xl md:text-5xl text-[#C5A059] mb-10 tracking-widest uppercase">Arquitectura de Alto Rendimiento</h2>
+            <div class="text-white/70 text-lg leading-relaxed font-light mb-16 space-y-6">
+                <p>Nuestra intervención no propone mejoras superficiales, sino una reconstrucción total del activo financiero que es su web. Implementaremos una infraestructura de Inteligencia Artificial diseñada para automatizar la captación 24/7 y neutralizar la fuga de capital operativa.</p>
+                <p>Es el momento de transicionar desde un sitio web pasivo hacia una maquinaria de conversión de precisión, devolviendo a WeSapiens la soberanía digital que su trayectoria exige.</p>
+                
+                <div class="pt-8">
+                    <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                    <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 6000€ vía Kit Digital.</p>
+                </div>
+            </div>
+            
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/5 py-24 px-10">
+        <div class="max-w-7xl mx-auto text-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20 mx-auto" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="mb-20">
+                <h3 class="font-cinzel text-[#C5A059] text-xl tracking-widest mb-2">DAVID DÍAZ</h3>
+                <p class="text-[10px] tracking-[0.4em] text-white/40 uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-[10px] tracking-[0.4em] text-white/40 uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 max-w-4xl mx-auto border-y border-white/5 py-12">
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] uppercase mb-4">Teléfono</p>
+                    <a href="tel:951870392" class="text-xs text-white/60 hover:text-white transition-colors">951 870 392</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] uppercase mb-4">WhatsApp</p>
+                    <a href="https://wa.me/34722714078" class="text-xs text-white/60 hover:text-white transition-colors">722 714 078</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] uppercase mb-4">Oficial</p>
+                    <a href="https://www.agencialumar.es" class="text-xs text-white/60 hover:text-white transition-colors">www.agencialumar.es</a>
+                </div>
+                <div>
+                    <p class="text-[9px] tracking-[0.3em] text-[#C5A059] uppercase mb-4">Email</p>
+                    <a href="mailto:info@agencialumar.es" class="text-xs text-white/60 hover:text-white transition-colors">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <div class="text-[9px] tracking-[0.5em] text-white/20 uppercase">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
