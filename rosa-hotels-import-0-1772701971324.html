@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #F5F5F1; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Rosa Hotels">
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL ROSA HOTELS</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+            <div class="mt-12">
+                <p class="text-[#C5A059] font-cinzel tracking-[0.3em] text-sm mb-4">ESTADO DE CAPTACIÓN ACTUAL</p>
+                <p class="text-white/60 max-w-2xl mx-auto text-sm leading-relaxed">21% DE CAPTACIÓN QUE ROSA HOTELS PIERDE ANUALMENTE SIN AUTOMATIZACIÓN 24/7</p>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 leading-snug">DIAGNÓSTICO DE FLUJO DE CAJA Y RENDIMIENTO</h2>
+                <div class="space-y-6 text-white/70 font-light leading-relaxed text-lg">
+                    <p>Tras someter el ecosistema digital de Rosa Hotels a nuestra auditoría técnica, el veredicto es ineludible: una puntuación de <span class="text-[#C5A059] font-bold">48/100</span>.</p>
+                    <p>Mientras el sector hotelero de lujo compite por la inmediatez, su plataforma actual actúa como un embudo invertido. Cada hora que el negocio permanece sin atención activa y automatizada, un cliente potencial elige a la competencia.</p>
+                    <p>La lentitud extrema identificada está penalizando la experiencia del usuario, un factor que los algoritmos de búsqueda ya están castigando en favor de activos digitales más ágiles.</p>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/10 reveal">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Auditoría Rosa Hotels">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20 reveal">
+                <h2 class="font-cinzel text-3xl md:text-5xl text-[#C5A059] mb-6">EL COSTE DE LA INACCIÓN TECNOLÓGICA</h2>
+                <p class="text-white/50 tracking-widest uppercase text-xs">Análisis de Capital y Conversión Operativa</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-black/40 p-12 border border-[#C5A059]/20 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-4">21%</div>
+                    <h3 class="font-cinzel text-xl mb-6 text-white">LUCRO CESANTE DE CAPTACIÓN</h3>
+                    <p class="text-white/60 font-light leading-relaxed">Rosa Hotels está sufriendo una hemorragia de reservas directas. Mantener la infraestructura actual implica aceptar que, de cada 100 usuarios interesados, la mayoría abandona por frustración técnica antes de alcanzar la pasarela de pago.</p>
+                </div>
+                <div class="bg-black/40 p-12 border border-[#C5A059]/20 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-4">48%</div>
+                    <h3 class="font-cinzel text-xl mb-6 text-white">EFICIENCIA OPERATIVA</h3>
+                    <p class="text-white/60 font-light leading-relaxed">Un rendimiento crítico no es solo un dato técnico; es una cesión directa de cuota de mercado hacia las OTAs. La plataforma actual actúa como un lastre que impide la escalabilidad del flujo de caja anual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="relative group overflow-hidden border border-white/10 reveal order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Evolución Digital">
+            </div>
+            <div class="reveal order-1 md:order-2">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8">ARQUITECTURA DE ALTO RENDIMIENTO</h2>
+                <div class="space-y-6 text-white/70 font-light leading-relaxed text-lg">
+                    <p>Implementaremos nuestra <span class="text-white font-semibold">Infraestructura IA de Proyección Directa</span>, diseñada para elevar su rendimiento actual hacia el umbral de excelencia competitiva.</p>
+                    <p>Sustituiremos la fricción por fluidez mediante el despliegue de un Agente IA especializado que gestiona la demanda en tiempo real, eliminando los puntos de fuga y recuperando la eficiencia que Rosa Hotels merece.</p>
+                    <div class="pt-8">
+                        <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+                    </div>
+                    <div class="mt-12">
+                        <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                        <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 12000€ vía Kit Digital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/5 pt-24 pb-12 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="flex justify-center mb-10">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            </div>
+            
+            <div class="mb-20">
+                <h4 class="font-cinzel text-[#C5A059] text-2xl tracking-widest mb-2">DAVID DÍAZ</h4>
+                <p class="text-white/40 text-xs tracking-[0.3em] uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/30 text-[10px] tracking-[0.2em] uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.2em] text-white/50 uppercase">
+                <div class="flex flex-col space-y-3">
+                    <span class="text-[#C5A059]">Teléfono Fijo</span>
+                    <a href="tel:951870392" class="hover:text-white transition-colors">951 870 392</a>
+                </div>
+                <div class="flex flex-col space-y-3">
+                    <span class="text-[#C5A059]">WhatsApp Business</span>
+                    <a href="https://wa.me/34722714078" target="_blank" class="hover:text-white transition-colors">722 714 078</a>
+                </div>
+                <div class="flex flex-col space-y-3">
+                    <span class="text-[#C5A059]">Web Oficial</span>
+                    <a href="https://www.agencialumar.es" target="_blank" class="hover:text-white transition-colors">www.agencialumar.es</a>
+                </div>
+                <div class="flex flex-col space-y-3">
+                    <span class="text-[#C5A059]">Email Corporativo</span>
+                    <a href="mailto:info@agencialumar.es" class="hover:text-white transition-colors">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <div class="text-[9px] tracking-[0.4em] text-white/20 border-t border-white/5 pt-12">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
