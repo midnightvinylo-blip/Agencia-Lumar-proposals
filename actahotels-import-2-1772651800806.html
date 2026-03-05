@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #000; color: #fff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Hero Background">
+        <div class="relative z-10 text-center px-4">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase">EL PATRIMONIO DEL ACTAHOTELS</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 bg-black px-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.5em] mb-8 uppercase">Diagnóstico de Flujo de Caja</h2>
+                <p class="text-3xl md:text-4xl font-cinzel mb-8 leading-tight">23% DE CAPTACIÓN QUE ACTAHOTELS PIERDE SIN AUTOMATIZACIÓN 24/7</p>
+                <p class="text-white/60 leading-relaxed mb-10 text-lg">
+                    La auditoría técnica de actahotels revela un score de rendimiento de 45/100. Mientras su competencia directa optimiza milisegundos para capturar reservas directas, su infraestructura actual actúa como una barrera invisible. Cada hora que el negocio permanece sin atención automatizada y con tiempos de respuesta críticos, un cliente potencial migra hacia plataformas de terceros o competidores más ágiles.
+                </p>
+                <div class="border-l-2 border-[#C5A059] pl-8 py-2">
+                    <span class="block text-4xl font-cinzel text-[#C5A059]">45/100</span>
+                    <span class="text-[10px] tracking-[0.3em] uppercase text-white/40">Indicador de Eficiencia Operativa</span>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Auditoría">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 bg-[#1A1A1A] px-10 border-y border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="reveal text-center mb-24">
+                <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.5em] mb-6 uppercase">Análisis de Capital y Fuga Técnica</h2>
+                <p class="text-white/60 max-w-2xl mx-auto text-lg">El coste de la inacción es una cifra tangible que impacta directamente en su soberanía financiera anual.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="reveal border border-white/5 p-12 bg-black/40 hover:border-[#C5A059]/30 transition-colors duration-700">
+                    <p class="font-cinzel text-[#C5A059] text-4xl mb-4">23%</p>
+                    <p class="text-xs tracking-[0.2em] text-white/40 uppercase mb-6">Pérdida de Captación</p>
+                    <p class="text-white/60 text-sm leading-relaxed">Fuga constante de usuarios debido a la latencia en la carga de tarifas y disponibilidad en dispositivos móviles.</p>
+                </div>
+                <div class="reveal border border-white/5 p-12 bg-black/40 hover:border-[#C5A059]/30 transition-colors duration-700">
+                    <p class="font-cinzel text-[#C5A059] text-4xl mb-4">~16.100€</p>
+                    <p class="text-xs tracking-[0.2em] text-white/40 uppercase mb-6">Impacto Anual Estimado</p>
+                    <p class="text-white/60 text-sm leading-relaxed">Lucro cesante acumulado por la falta de un sistema de conversión de alta velocidad y automatización 24/7.</p>
+                </div>
+                <div class="reveal border border-white/5 p-12 bg-black/40 hover:border-[#C5A059]/30 transition-colors duration-700">
+                    <p class="font-cinzel text-[#C5A059] text-4xl mb-4">0€</p>
+                    <p class="text-xs tracking-[0.2em] text-white/40 uppercase mb-6">Payback Operativo</p>
+                    <p class="text-white/60 text-sm leading-relaxed">Retorno inmediato mediante la recuperación de reservas directas que actualmente financian a la competencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 bg-black px-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal relative group overflow-hidden border border-white/10 order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Evolución">
+            </div>
+            <div class="reveal order-1 md:order-2">
+                <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.5em] mb-8 uppercase">Arquitectura de Alto Rendimiento</h2>
+                <p class="text-3xl md:text-4xl font-cinzel mb-8 leading-tight">RECUPERE SU SOBERANÍA DIGITAL</p>
+                <p class="text-white/60 leading-relaxed mb-10 text-lg">
+                    Implementaremos una infraestructura de inteligencia artificial diseñada para detener la hemorragia financiera de inmediato. Sustituiremos la arquitectura obsoleta por un ecosistema de alta velocidad que guía al usuario desde la intención hasta la confirmación de la reserva sin fricciones, transformando actahotels en un activo financiero de rendimiento militar.
+                </p>
+                
+                <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+                
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 25000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-32 bg-black border-t border-white/5 px-10 text-center">
+        <div class="max-w-7xl mx-auto">
+            <div class="reveal mb-20">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mx-auto mb-10" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+                <p class="font-cinzel text-[#C5A059] text-2xl tracking-widest mb-2 uppercase">David Díaz</p>
+                <p class="text-xs tracking-[0.4em] text-white/50 uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-[10px] tracking-[0.2em] text-white/30 uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.3em] uppercase text-white/60">
+                <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">951 870 392</a>
+                <a href="https://wa.me/34722714078" target="_blank" class="hover:text-[#C5A059] transition-colors">WhatsApp Business</a>
+                <a href="https://www.agencialumar.es" target="_blank" class="hover:text-[#C5A059] transition-colors">www.agencialumar.es</a>
+                <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">info@agencialumar.es</a>
+            </div>
+
+            <div class="text-[9px] tracking-[0.5em] text-white/20 uppercase">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
