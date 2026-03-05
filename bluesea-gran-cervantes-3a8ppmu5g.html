@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | BLUESEA Gran Cervantes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #000; font-family: 'Inter', sans-serif; color: #F5F5F1; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="BLUESEA Gran Cervantes Heritage">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">24% DE CAPTACIÓN QUE BLUESEA GRAN CERVANTES PIERDE SIN AUTOMATIZACIÓN 24/7</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">La excelencia no se hereda, se protege</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-10 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Diagnóstico de Infraestructura</h2>
+                <h3 class="text-3xl md:text-4xl font-cinzel mb-8 leading-tight">SU ACTIVO DIGITAL OPERA BAJO UN TECHO DE CRISTAL TÉCNICO</h3>
+                <p class="text-white/60 text-lg leading-relaxed mb-6">
+                    Tras auditar la infraestructura de <span class="text-white">BLUESEA Gran Cervantes</span>, el veredicto técnico es indiscutible: una puntuación de <span class="text-[#C5A059] font-bold">42/100</span>. Mientras el mercado hotelero compite en milisegundos para capturar la demanda, su activo actual actúa como un embudo invertido que expulsa al tráfico cualificado.
+                </p>
+                <p class="text-white/60 text-lg leading-relaxed">
+                    Cada hora que el negocio permanece sin atención activa y automatizada, un cliente potencial elige a la competencia. No es una estimación; es la realidad técnica que Google y el mercado ya están penalizando.
+                </p>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Rendimiento">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-10 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20 reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-6 uppercase">Análisis de Capital y Flujo de Caja</h2>
+                <h3 class="text-3xl md:text-5xl font-cinzel">EL COSTE DE LA INACCIÓN</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-black p-12 border border-white/5 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-6">24%</div>
+                    <h4 class="font-cinzel text-xl mb-4 tracking-widest uppercase">Pérdida de Captación Anual</h4>
+                    <p class="text-white/50 leading-relaxed">
+                        Un rendimiento crítico del 42% genera una hemorragia operativa constante. Usted está aceptando una pérdida de oportunidad del 58% en cada sesión iniciada por latencia técnica.
+                    </p>
+                </div>
+                <div class="bg-black p-12 border border-white/5 reveal" style="transition-delay: 200ms;">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-6">24%</div>
+                    <h4 class="font-cinzel text-xl mb-4 tracking-widest uppercase">Capacidad Desaprovechada</h4>
+                    <p class="text-white/50 leading-relaxed">
+                        El efecto de rebote masivo infla sus costes de adquisición y desplaza a sus clientes potenciales directamente hacia las OTAs o la competencia directa de forma sistemática.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-10 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal relative group overflow-hidden border border-white/10 order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Arquitectura de Alto Rendimiento">
+            </div>
+            <div class="reveal order-1 md:order-2">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Evolución Estratégica</h2>
+                <h3 class="text-3xl md:text-4xl font-cinzel mb-8 leading-tight">REGENIERÍA DE COMBATE E INTELIGENCIA</h3>
+                <p class="text-white/60 text-lg leading-relaxed mb-8">
+                    Nuestra arquitectura elimina la fricción técnica, transformando el rendimiento actual en una plataforma de conversión de alta velocidad. El Agente IA de Lumar toma el control para cerrar reservas sin intervención humana, recuperando el terreno perdido frente a la competencia.
+                </p>
+                <p class="text-white/60 text-lg leading-relaxed mb-8">
+                    El objetivo es reclamar el control de su reserva directa y asegurar que el rendimiento técnico deje de dictar su techo de ingresos anuales.
+                </p>
+                
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+
+                <div class="mt-12">
+                    <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase">Reservar llamada estratégica ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/5 pt-24 pb-12 px-10">
+        <div class="max-w-7xl mx-auto text-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20 mx-auto" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="mb-20">
+                <p class="font-cinzel text-[#C5A059] text-2xl tracking-widest mb-2">DAVID DÍAZ</p>
+                <p class="text-white/80 tracking-[0.3em] text-[10px] mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[10px] tracking-[0.2em]">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.2em] text-white/50 uppercase">
+                <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">T: 951 870 392</a>
+                <a href="https://wa.me/34722714078" class="hover:text-[#C5A059] transition-colors">W: 722 714 078</a>
+                <a href="https://www.agencialumar.es" class="hover:text-[#C5A059] transition-colors">W: www.agencialumar.es</a>
+                <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">E: info@agencialumar.es</a>
+            </div>
+
+            <div class="text-[9px] tracking-[0.4em] text-white/20">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
