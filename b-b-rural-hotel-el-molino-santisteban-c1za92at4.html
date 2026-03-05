@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoría de Activos Digitales | El Molino Santisteban</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black text-white antialiased overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+          <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+          <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+          <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="El Molino Santisteban">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-30 text-center px-6 max-w-6xl">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase">14% DE CAPTACIÓN QUE EL MOLINO SANTISTEBAN PIERDE SIN AUTOMATIZACIÓN 24/7</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-10 bg-black relative">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.4em] mb-8 uppercase">Diagnóstico de Flujo de Caja</h2>
+                <p class="text-3xl font-cinzel mb-8 leading-relaxed">Su actual infraestructura técnica del 62% garantiza que casi 4 de cada 10 clientes potenciales abandonen su web.</p>
+                <div class="space-y-6 text-white/60 font-light leading-loose text-lg">
+                    <p>Mientras el sector hotelero rural se profesionaliza hacia la reserva directa, su plataforma actual actúa como un embudo perforado. Hemos detectado que la ausencia de un sistema de respuesta automatizada está dejando el campo libre a los agregadores y a la competencia directa.</p>
+                    <p>Cada hora que el negocio está sin atención activa, un cliente potencial elige otra opción. No es falta de demanda, es una limitación técnica de su capacidad de respuesta inmediata.</p>
+                </div>
+                <div class="mt-12 flex items-center gap-6">
+                    <div class="h-[1px] w-20 bg-[#C5A059]"></div>
+                    <span class="font-cinzel text-[#C5A059] tracking-widest text-xs italic">SCORE DE RENDIMIENTO: 62/100</span>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/10 reveal">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de infraestructura">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-10 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24 reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.4em] mb-4 uppercase">Análisis de Capital y Fuga Técnica</h2>
+                <p class="text-white/40 font-light tracking-widest uppercase text-xs">Impacto directo sobre la eficiencia operativa anual</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative group overflow-hidden border border-white/10 reveal order-2 md:order-1">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Erosión de reservas">
+                </div>
+                <div class="reveal order-1 md:order-2">
+                    <div class="grid gap-8">
+                        <div class="p-10 border border-[#C5A059]/20 bg-black/40 backdrop-blur-sm">
+                            <span class="text-[#C5A059] font-cinzel text-5xl block mb-4">14%</span>
+                            <h3 class="font-cinzel text-xs tracking-[0.2em] text-white mb-4 uppercase">Pérdida de Captación Anual</h3>
+                            <p class="text-white/50 text-sm font-light leading-relaxed">Erosión del potencial de reservas directas por falta de interacción en tiempo real durante picos de gestión o fuera de horario comercial.</p>
+                        </div>
+                        <div class="p-10 border border-white/10 bg-black/20">
+                            <span class="text-white font-cinzel text-5xl block mb-4 italic opacity-30">62/100</span>
+                            <h3 class="font-cinzel text-xs tracking-[0.2em] text-white/70 mb-4 uppercase">Capacidad Operativa Desaprovechada</h3>
+                            <p class="text-white/50 text-sm font-light leading-relaxed">Su infraestructura actual no es capaz de procesar objeciones de clientes de forma autónoma, forzando la dependencia de intervención humana constante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-10 bg-black">
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <h2 class="font-cinzel text-[#C5A059] text-sm tracking-[0.4em] mb-12 uppercase">Arquitectura de Alto Rendimiento</h2>
+            <p class="text-2xl md:text-3xl font-cinzel leading-relaxed mb-12">Detenga la hemorragia de leads y eleve su activo digital al nivel de élite que El Molino Santisteban merece.</p>
+            <p class="text-white/60 font-light text-lg leading-loose mb-16">
+                El siguiente paso es la validación de la Propuesta Estratégica y el despliegue inmediato de su Infraestructura IA. Una sesión estratégica sin compromiso para determinar exactamente cuánto capital está dejando sobre la mesa y cómo recuperarlo mediante una atención 24/7 sin fisuras.
+            </p>
+            
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+            
+            <div class="mt-20">
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-24 px-10 bg-black border-t border-white/5">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="flex justify-center mb-12">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-20" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            </div>
+            
+            <div class="mb-20">
+                <h4 class="font-cinzel text-[#C5A059] tracking-[0.3em] text-xl mb-2">David Díaz</h4>
+                <p class="text-white/40 text-[10px] tracking-[0.5em] uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/30 text-[9px] tracking-[0.2em] uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.3em] uppercase text-white/50">
+                <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">Tel: 951 870 392</a>
+                <a href="https://wa.me/34722714078" class="hover:text-[#C5A059] transition-colors">WhatsApp Business</a>
+                <a href="https://www.agencialumar.es" class="hover:text-[#C5A059] transition-colors">www.agencialumar.es</a>
+                <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">info@agencialumar.es</a>
+            </div>
+
+            <div class="pt-8 border-t border-white/5 text-[9px] tracking-[0.4em] text-white/20 uppercase font-light">
+                © 2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
