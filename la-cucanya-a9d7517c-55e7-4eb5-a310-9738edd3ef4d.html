@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cucanya — Auditoría de Patrimonio Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black overflow-x-hidden">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="La Cucanya Hero">
+        <div class="absolute inset-0 bg-black/40"></div>
+        
+        <div class="relative z-30 text-center px-6 max-w-6xl">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase">21% DE CAPTACIÓN QUE LA CUCANYA PIERDE SIN AUTOMATIZACIÓN 24/7</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <!-- SECCIÓN AUDITORÍA (DIAGNÓSTICO) -->
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Diagnóstico de Infraestructura</h2>
+                <p class="text-3xl md:text-4xl font-cinzel mb-10 leading-snug">Rendimiento Técnico: <span class="text-[#C5A059]">48/100</span></p>
+                <div class="space-y-6 text-white/70 text-lg leading-relaxed font-light">
+                    <p>Tras un análisis técnico exhaustivo de los activos digitales de <strong>La Cucanya</strong>, los datos indican que su ecosistema actual opera bajo una calificación crítica de 48/100.</p>
+                    <p>Cada hora que el negocio permanece sin una atención automatizada y activa, un cliente potencial es redirigido orgánicamente hacia la competencia. Su infraestructura actual está filtrando el 52% de su capacidad operativa antes de que el usuario llegue a interactuar con la marca.</p>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Técnico">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN IMPACTO (ANÁLISIS DE CAPITAL) -->
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20 reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-6 uppercase">Impacto en el Flujo de Caja</h2>
+                <p class="text-2xl font-cinzel text-white/80">El Coste de la Inacción Técnica</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-black/40 p-12 border border-[#C5A059]/20 reveal">
+                    <span class="text-[#C5A059] font-cinzel text-5xl block mb-6">21%</span>
+                    <h3 class="font-cinzel text-white text-lg tracking-widest mb-4 uppercase">Pérdida Técnica de Captación</h3>
+                    <p class="text-white/60 font-light leading-relaxed">Impacto directo sobre la eficiencia operativa anual. Esta hemorragia técnica representa una barrera de entrada constante para nuevos clientes de alto valor.</p>
+                </div>
+                <div class="bg-black/40 p-12 border border-[#C5A059]/20 reveal">
+                    <span class="text-[#C5A059] font-cinzel text-5xl block mb-6">21%</span>
+                    <h3 class="font-cinzel text-white text-lg tracking-widest mb-4 uppercase">Capacidad Desaprovechada</h3>
+                    <p class="text-white/60 font-light leading-relaxed">Su motor digital actual solo entrega una fracción de su potencia real. El 52% de ineficiencia técnica absoluta penaliza el retorno de cada impacto publicitario.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRANSICIÓN -->
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <!-- SECCIÓN EVOLUCIÓN (ARQUITECTURA) -->
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal relative group overflow-hidden border border-white/10 order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Arquitectura de Alto Rendimiento">
+            </div>
+            <div class="reveal order-1 md:order-2">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Despliegue Estratégico</h2>
+                <h3 class="text-3xl font-cinzel mb-8 leading-tight">Arquitectura de Alto Rendimiento</h3>
+                <div class="space-y-6 text-white/70 font-light text-lg mb-12">
+                    <p>Sustituimos sistemas obsoletos por un motor diseñado para recuperar la capacidad perdida. Implementamos capas de optimización que garantizan un flujo de usuario instantáneo y gestión autónoma 24/7 mediante IA.</p>
+                    <p>No se trata de una mejora estética, sino de una evolución hacia un activo de ventas inteligente que elimina el lucro cesante derivado de la fricción tecnológica.</p>
+                    
+                    <div class="pt-8">
+                        <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                        <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+                    </div>
+                </div>
+                
+                <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase">
+                    Reservar llamada estratégica ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="bg-black pt-32 pb-20 border-t border-white/5 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mx-auto mb-10" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="mb-20">
+                <p class="font-cinzel text-[#C5A059] text-xl tracking-widest mb-2 uppercase">David Díaz</p>
+                <p class="text-white/80 text-xs tracking-[0.4em] mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[10px] tracking-widest uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 border-y border-white/5 py-12 text-left">
+                <div>
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-4 uppercase">Teléfono</p>
+                    <a href="tel:951870392" class="text-white/60 text-xs hover:text-[#C5A059] transition-colors uppercase">951 870 392</a>
+                </div>
+                <div>
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-4 uppercase">WhatsApp</p>
+                    <a href="https://wa.me/34722714078" target="_blank" class="text-white/60 text-xs hover:text-[#C5A059] transition-colors uppercase">722 714 078</a>
+                </div>
+                <div>
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-4 uppercase">Digital</p>
+                    <a href="https://www.agencialumar.es" target="_blank" class="text-white/60 text-xs hover:text-[#C5A059] transition-colors uppercase block">agencialumar.es</a>
+                </div>
+                <div>
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-4 uppercase">Contacto</p>
+                    <a href="mailto:info@agencialumar.es" class="text-white/60 text-xs hover:text-[#C5A059] transition-colors uppercase block">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <p class="text-white/20 text-[9px] tracking-[0.5em] uppercase">2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
