@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | Hotel Cortijo del Marqués</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black text-white selection:bg-[#C5A059] selection:text-black">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Hotel Cortijo del Marqués Heritage">
+        <div class="absolute inset-0 bg-black/60"></div>
+        
+        <div class="relative z-30 text-center px-6 max-w-5xl">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL HOTEL CORTIJO DEL MARQUÉS</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+            <div class="mt-12 reveal">
+                <p class="text-[#C5A059] font-cinzel tracking-[0.4em] text-xs mb-4">MÉTRICA DE PÉRDIDA ANUAL</p>
+                <p class="text-white text-2xl md:text-3xl font-light tracking-tighter">24% DE CAPTACIÓN QUE HOTEL CORTIJO DEL MARQUÉS PIERDE SIN AUTOMATIZACIÓN 24/7</p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <!-- AUDITORÍA -->
+    <section id="auditoria" class="py-32 bg-black px-6 md:px-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl text-[#C5A059] mb-8 tracking-widest uppercase">Diagnóstico de Flujo de Caja</h2>
+                <div class="space-y-6 text-white/70 font-light leading-relaxed text-lg">
+                    <p>Tras someter a <span class="text-white font-normal">Hotel Cortijo del Marqués</span> a una auditoría técnica profunda con nuestro motor AuditEngine, el veredicto es objetivo e incontestable: su ecosistema digital opera con una <span class="text-[#C5A059] font-bold">puntuación de 42/100</span>.</p>
+                    <p>Mientras sus competidores en el sector de alojamiento boutique de lujo optimizan cada milisegundo para capturar la demanda directa, su plataforma actual actúa como un embudo invertido que expulsa al usuario por falta de respuesta técnica.</p>
+                    <p>Cada hora que el negocio está sin atención activa, un cliente potencial elige a la competencia.</p>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/10 reveal">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Técnico">
+                <div class="absolute inset-0 bg-[#C5A059]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPACTO -->
+    <section id="impacto" class="py-32 bg-[#1A1A1A] px-6 md:px-20">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24 reveal">
+                <h2 class="font-cinzel text-4xl text-white mb-4 tracking-widest uppercase">El Coste de la Inacción</h2>
+                <div class="h-1 w-24 bg-[#C5A059] mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-black p-12 border border-white/5 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-6">42/100</div>
+                    <h3 class="text-white tracking-widest text-xs mb-4 uppercase">Score de Rendimiento</h3>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">Su infraestructura actual solo procesa el 42% de su potencial de conversión técnica.</p>
+                </div>
+                <div class="bg-black p-12 border border-[#C5A059]/30 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-6">24%</div>
+                    <h3 class="text-white tracking-widest text-xs mb-4 uppercase">Pérdida de Captación Anual</h3>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">Impacto directo sobre la eficiencia operativa por falta de respuesta inmediata.</p>
+                </div>
+                <div class="bg-black p-12 border border-white/5 reveal">
+                    <div class="text-[#C5A059] font-cinzel text-5xl mb-6">58%</div>
+                    <h3 class="text-white tracking-widest text-xs mb-4 uppercase">Tráfico en Fuga</h3>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">Lucro cesante en su capacidad de captación directa derivado de fricción técnica.</p>
+                </div>
+            </div>
+
+            <div class="mt-32 grid md:grid-cols-2 gap-20 items-center">
+                <div class="relative group overflow-hidden border border-white/10 order-2 md:order-1 reveal">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Capital">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-cinzel text-3xl text-[#C5A059] mb-8 tracking-widest uppercase">Arquitectura IA 24/7</h2>
+                    <div class="space-y-6 text-white/70 font-light leading-relaxed text-lg">
+                        <p>Presentar un rendimiento crítico no es un detalle, es una hemorragia. En el mercado del Hospitality de alto nivel, la lentitud se traduce en abandono.</p>
+                        <p>Usted está pagando por atraer tráfico para que más de la mitad experimente una fricción insoportable. Nuestra solución está diseñada para revertir la métrica: pasar de un rendimiento del 42% a una eficiencia superior al 90%.</p>
+                        <p>Garantizamos que la experiencia de carga sea tan fluida y exclusiva como una estancia en su propio cortijo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRANSICIÓN -->
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <!-- EVOLUCIÓN / CTA -->
+    <section id="evolucion" class="py-32 bg-black px-6 md:px-20 text-center">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="font-cinzel text-4xl text-[#C5A059] mb-8 tracking-widest uppercase">Recupere su Soberanía Digital</h2>
+            <p class="text-white/70 text-lg font-light mb-12 leading-relaxed">
+                El diagnóstico está hecho y la solución es inminente. El siguiente paso lógico es el despliegue de su nueva infraestructura de ventas y el Agente IA de Lumar, diseñado específicamente para cerrar reservas 24/7 sin intervención humana.
+            </p>
+            
+            <div class="mb-16">
+                <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+            </div>
+
+            <div class="mt-20 border-t border-white/5 pt-12">
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-20 bg-black border-t border-white/5 px-6 md:px-20">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="mb-16 flex justify-center">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            </div>
+
+            <div class="mb-16">
+                <h4 class="font-cinzel text-[#C5A059] text-xl tracking-widest mb-2 uppercase">David Díaz</h4>
+                <p class="text-white/80 text-xs tracking-[0.3em] font-light uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[10px] tracking-[0.2em] uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.3em] text-white/50 uppercase">
+                <div class="flex flex-col space-y-2">
+                    <span class="text-[#C5A059] mb-2">Teléfono Fijo</span>
+                    <a href="tel:951870392" class="hover:text-white transition-colors">951 870 392</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="text-[#C5A059] mb-2">WhatsApp Business</span>
+                    <a href="https://wa.me/34722714078" target="_blank" class="hover:text-white transition-colors">722 714 078</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="text-[#C5A059] mb-2">Web Oficial</span>
+                    <a href="https://www.agencialumar.es" target="_blank" class="hover:text-white transition-colors">www.agencialumar.es</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="text-[#C5A059] mb-2">Email Corporativo</span>
+                    <a href="mailto:info@agencialumar.es" class="hover:text-white transition-colors">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <div class="text-[9px] tracking-[0.5em] text-white/20 uppercase border-t border-white/5 pt-10">
+                &copy; 2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
