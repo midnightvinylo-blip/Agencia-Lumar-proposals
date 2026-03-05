@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | Hotel Rural La Encantada Riaza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #F5F5F1; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Hotel Rural La Encantada Hero">
+        <div class="relative z-30 text-center px-6 max-w-6xl">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL HOTEL RURAL LA ENCANTADA RIAZA</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 bg-black px-6 md:px-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-3xl mb-8 tracking-widest">DIAGNÓSTICO DE INFRAESTRUCTURA</h2>
+                <div class="space-y-6 text-white/80 leading-relaxed font-light">
+                    <p>Mientras los alojamientos de Riaza compiten por el turismo de fin de semana, la auditoría técnica de <span class="text-white font-semibold italic text-lg">Hotel Rural La Encantada</span> revela una puntuación crítica de <span class="text-[#C5A059] font-bold">42/100</span>.</p>
+                    <p>En el entorno actual, donde la inmediatez dicta la reserva, una nota por debajo del 50 es una señal de invisibilidad digital técnica frente a una competencia que sí está optimizando su velocidad de respuesta.</p>
+                    <div class="pt-8 border-t border-white/10">
+                        <span class="text-[10px] tracking-[0.5em] text-[#C5A059] uppercase block mb-4">Rendimiento Actual</span>
+                        <div class="text-6xl font-cinzel text-white">42<span class="text-sm text-[#C5A059]">/100</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal">
+                <div class="relative group overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis Técnico">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 bg-[#1A1A1A] px-6 md:px-20">
+        <div class="max-w-7xl mx-auto">
+            <div class="reveal mb-20 max-w-3xl">
+                <h2 class="font-cinzel text-[#C5A059] text-3xl mb-8 tracking-widest">ANÁLISIS DE CAPITAL Y FLUJO</h2>
+                <p class="text-white/80 leading-relaxed font-light text-lg">
+                    Tu rendimiento actual del 42% no es solo un dato técnico; es un cuello de botella operativo. Esta lentitud extrema genera un <span class="text-white">lucro cesante por fricción</span> masivo: el 58% de su eficiencia comercial está totalmente inactiva.
+                </p>
+                <p class="mt-6 text-white/60 font-light italic">
+                    Usted no está compitiendo por calidad de servicio, está perdiendo por falta de infraestructura técnica ante un mercado que no espera.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="reveal p-12 border border-white/5 bg-black/40 backdrop-blur-sm group hover:border-[#C5A059]/30 transition-all duration-700">
+                    <div class="text-[#C5A059] font-cinzel text-sm tracking-[0.4em] mb-4">PÉRDIDA ANUAL</div>
+                    <div class="text-5xl font-cinzel text-white mb-6">24%</div>
+                    <p class="text-white/40 text-sm leading-relaxed">Fuga de captación directa anual debido a latencia técnica y falta de automatización 24/7.</p>
+                </div>
+                <div class="reveal p-12 border border-white/5 bg-black/40 backdrop-blur-sm group hover:border-[#C5A059]/30 transition-all duration-700">
+                    <div class="text-[#C5A059] font-cinzel text-sm tracking-[0.4em] mb-4">INACTIVIDAD</div>
+                    <div class="text-5xl font-cinzel text-white mb-6">24%</div>
+                    <p class="text-white/40 text-sm leading-relaxed">Capacidad operativa desaprovechada por procesos de reserva manuales y fricción en el canal digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 bg-black px-6 md:px-20">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-24">
+                <div class="reveal order-2 md:order-1">
+                    <div class="relative group overflow-hidden border border-white/10">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Alta Velocidad Lumar">
+                    </div>
+                </div>
+                <div class="reveal order-1 md:order-2">
+                    <h2 class="font-cinzel text-[#C5A059] text-3xl mb-8 tracking-widest">RECONSTRUCCIÓN DE ARQUITECTURA</h2>
+                    <div class="space-y-6 text-white/80 leading-relaxed font-light">
+                        <p>En Agencia Lumar no "arreglamos webs", reconstruimos su arquitectura de ventas. Desplegamos una <span class="text-white font-semibold">infraestructura IA</span> diseñada para eliminar el 100% de la latencia detectada.</p>
+                        <p>Sustituimos la carga lenta por una interfaz de alta velocidad y un <span class="text-[#C5A059]">Agente IA de Reservas</span> que atiende, califica y cierra ventas las 24 horas, recuperando la eficiencia perdida y transformando su presencia digital en una máquina de conversión autónoma.</p>
+                        <p class="text-white">Esta es una ventana de oportunidad limitada para profesionalizar su canal de venta directa a coste cero de implementación.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal text-center border-t border-white/5 pt-20">
+                <div class="mb-12">
+                    <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                    <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+                </div>
+                <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">RESERVAR LLAMADA ESTRATÉGICA AHORA</a>
+                <p class="mt-8 text-white/30 text-[10px] tracking-widest">SESIÓN ESTRATÉGICA PARA VALIDAR ACCESO A SUBVENCIÓN</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-24 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="mb-16 flex flex-col items-center">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-6" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+                <h3 class="font-cinzel text-[#C5A059] text-xl tracking-[0.3em]">DAVID DÍAZ</h3>
+                <p class="text-white/60 text-[10px] tracking-[0.4em] mt-2">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[9px] tracking-[0.2em] mt-1 italic">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 text-[10px] tracking-[0.3em] text-white/50 uppercase">
+                <a href="tel:951870392" class="hover:text-[#C5A059] transition-colors">Tel: 951 870 392</a>
+                <a href="https://wa.me/34722714078" target="_blank" class="hover:text-[#C5A059] transition-colors">WhatsApp Business</a>
+                <a href="https://www.agencialumar.es" target="_blank" class="hover:text-[#C5A059] transition-colors">www.agencialumar.es</a>
+                <a href="mailto:info@agencialumar.es" class="hover:text-[#C5A059] transition-colors">info@agencialumar.es</a>
+            </div>
+            
+            <div class="text-white/20 text-[9px] tracking-[0.5em] uppercase">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
