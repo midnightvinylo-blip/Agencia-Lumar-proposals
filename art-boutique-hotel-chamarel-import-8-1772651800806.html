@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Boutique Hotel Chamarel | Auditoría de Rendimiento Lumar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Art Boutique Hotel Chamarel">
+        <div class="absolute inset-0 bg-black/40"></div>
+        
+        <div class="relative z-30 text-center px-6 max-w-6xl">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold uppercase">EL PATRIMONIO DEL ART BOUTIQUE HOTEL CHAMAREL</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">LA EXCELENCIA NO SE HEREDA, SE PROTEGE</span>
+            </h1>
+            <div class="mt-12">
+                <p class="text-[#C5A059] font-cinzel tracking-[0.4em] text-xs mb-8">23% DE CAPTACIÓN PERDIDA SIN AUTOMATIZACIÓN 24/7</p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-6 md:px-20 bg-black relative">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-widest">DIAGNÓSTICO DE FLUJO DE CAJA</h2>
+                <p class="text-white/70 leading-relaxed text-lg mb-8 italic">
+                    "Art Boutique Hotel Chamarel está financiando el crecimiento de su competencia con 84.240€ anuales en reservas perdidas por pura fricción técnica."
+                </p>
+                <div class="space-y-6 text-white/60 font-light">
+                    <p>Mientras su hotel ofrece una experiencia de lujo y diseño en el mundo físico, su infraestructura digital opera con un rendimiento crítico de 45/100. En el mercado de alta gama, una puntuación técnica por debajo de 50 es el equivalente digital a tener la puerta de su boutique cerrada mientras los huéspedes intentan entrar.</p>
+                    <p>Cada hora que el negocio está sin atención activa, un cliente potencial elige a la competencia. Hemos detectado que su plataforma tarda más del triple de lo aceptable en ser interactiva, anulando cualquier esfuerzo de marketing antes de que el cliente vea la primera estancia.</p>
+                </div>
+                <div class="mt-10 flex items-center space-x-6">
+                    <div class="border-l border-[#C5A059] pl-6">
+                        <span class="block text-4xl font-cinzel text-[#C5A059]">45/100</span>
+                        <span class="text-[10px] tracking-[0.3em] text-white/40 uppercase">Digital Asset Score</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/10 reveal">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Análisis de Infraestructura">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#1A1A1A] relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-24">
+                <div class="relative group overflow-hidden border border-white/10 order-2 md:order-1 reveal">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Capital Digital">
+                </div>
+                <div class="order-1 md:order-2 reveal text-right md:text-left">
+                    <h2 class="font-cinzel text-3xl md:text-4xl text-[#C5A059] mb-8 tracking-widest">EL COSTE DE LA INACCIÓN</h2>
+                    <p class="text-white/70 leading-relaxed text-lg mb-8">
+                        La ineficiencia técnica no es un error de software, es una fuga de capital. Con un rendimiento del 45%, usted está desechando sistemáticamente al 55% de su tráfico cualificado.
+                    </p>
+                    <div class="grid grid-cols-1 gap-8 mt-12">
+                        <div class="bg-black/40 p-8 border border-white/5">
+                            <span class="block text-[#C5A059] text-3xl font-cinzel mb-2">~84.240€/AÑO</span>
+                            <span class="text-white/40 text-[10px] tracking-[0.2em] uppercase">Pérdida Técnica por Captación</span>
+                        </div>
+                        <div class="bg-black/40 p-8 border border-white/5">
+                            <span class="block text-[#C5A059] text-3xl font-cinzel mb-2">23%</span>
+                            <span class="text-white/40 text-[10px] tracking-[0.2em] uppercase">Fuga de Reservas Directas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="evolucion" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <h2 class="font-cinzel text-3xl md:text-5xl text-[#C5A059] mb-10 tracking-widest">ARQUITECTURA DE ALTO RENDIMIENTO</h2>
+            <div class="space-y-8 text-white/70 font-light text-lg mb-16 leading-relaxed">
+                <p>Nuestra solución detiene la hemorragia financiera mediante el despliegue de una Arquitectura Web Lumar basada en Edge Computing e IA. Elevaremos su rendimiento del 45% al 95%+ de forma inmediata.</p>
+                <p>Implementaremos un Agente IA de Ventas 24/7 entrenado específicamente en el inventario y servicios del Art Boutique Hotel Chamarel, capaz de resolver dudas y cerrar reservas en tiempo real, eliminando la fricción que hoy le cuesta miles de euros.</p>
+                
+                <div class="pt-8">
+                    <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                    <p class="text-white/60 text-[11px] italic uppercase">Incentivo Administrativo: Hasta 6000€ vía Kit Digital.</p>
+                </div>
+            </div>
+
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">
+                RESERVAR LLAMADA ESTRATÉGICA AHORA
+            </a>
+            
+            <p class="text-white/30 text-[10px] tracking-widest mt-12 uppercase">Inversión con Retorno Inmediato (Payback 0)</p>
+        </div>
+    </section>
+
+    <footer class="bg-black py-24 px-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto text-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mx-auto mb-10" style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" alt="Agencia Lumar">
+            
+            <div class="mb-20">
+                <h3 class="font-cinzel text-[#C5A059] text-xl tracking-[0.2em] mb-2 uppercase">David Díaz</h3>
+                <p class="text-white/60 text-xs tracking-[0.3em] uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/40 text-[10px] tracking-[0.2em] uppercase">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-white/5 pt-16">
+                <a href="tel:951870392" class="group">
+                    <span class="block text-[9px] text-white/30 tracking-[0.3em] uppercase mb-2">Teléfono Fijo</span>
+                    <span class="text-xs text-white/60 group-hover:text-[#C5A059] transition-colors">951 870 392</span>
+                </a>
+                <a href="https://wa.me/34722714078" class="group">
+                    <span class="block text-[9px] text-white/30 tracking-[0.3em] uppercase mb-2">WhatsApp Business</span>
+                    <span class="text-xs text-white/60 group-hover:text-[#C5A059] transition-colors">722 714 078</span>
+                </a>
+                <a href="https://www.agencialumar.es" class="group">
+                    <span class="block text-[9px] text-white/30 tracking-[0.3em] uppercase mb-2">Web Oficial</span>
+                    <span class="text-xs text-white/60 group-hover:text-[#C5A059] transition-colors">www.agencialumar.es</span>
+                </a>
+                <a href="mailto:info@agencialumar.es" class="group">
+                    <span class="block text-[9px] text-white/30 tracking-[0.3em] uppercase mb-2">Email Corporativo</span>
+                    <span class="text-xs text-white/60 group-hover:text-[#C5A059] transition-colors">info@agencialumar.es</span>
+                </a>
+            </div>
+
+            <div class="mt-24 text-[9px] text-white/20 tracking-[0.5em] uppercase">
+                2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
