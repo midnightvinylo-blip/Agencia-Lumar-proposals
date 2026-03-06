@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eurostars Hotel Company | Lumar Black Label</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: black; font-family: 'Inter', sans-serif; color: #F5F5F1; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1.2s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center">
+        <div class="font-cinzel font-bold text-[#C5A059] tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.4em] text-white/70">
+            <a href="#auditoria" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] cursor-pointer transition-colors uppercase">Evolución</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" 
+             class="absolute inset-0 w-full h-full object-cover grayscale opacity-40" alt="Eurostars Heritage">
+        <div class="absolute inset-0 bg-black/40"></div>
+        
+        <div class="relative z-30 text-center px-6">
+            <h1 class="font-cinzel leading-tight">
+                <span class="text-[#C5A059] block mb-6 text-5xl md:text-7xl font-bold">EL PATRIMONIO DEL EUROSTARS HOTEL COMPANY</span>
+                <span class="text-[#F5F5F1] block text-base md:text-xl font-light tracking-wide opacity-80 uppercase">La excelencia no se hereda, se protege</span>
+            </h1>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <!-- SECCIÓN AUDITORÍA (NEGRO) -->
+    <section id="auditoria" class="py-32 bg-black px-6 md:px-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Diagnóstico de Flujo</h2>
+                <p class="text-3xl md:text-4xl font-cinzel mb-8 leading-relaxed">Usted gestiona un legado, pero la captación desatendida erosiona su capital anual.</p>
+                <div class="space-y-6 text-white/60 font-light leading-loose text-lg">
+                    <p>La auditoría de rendimiento para Eurostars Hotel Company arroja un <strong>Score de 90/100</strong>. Aunque la autoridad de marca es indiscutible, existe una brecha crítica en la automatización de la atención activa.</p>
+                    <p>Cada hora que el negocio permanece sin atención inteligente, un cliente potencial de alto valor elige la agilidad de la competencia. No es una falta de prestigio, es una fuga técnica de captación que ocurre 24/7.</p>
+                </div>
+            </div>
+            <div class="reveal relative group overflow-hidden border border-white/10">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2070" 
+                     class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" 
+                     alt="Análisis Operativo">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN IMPACTO (GRIS) -->
+    <section id="impacto" class="py-32 bg-[#1A1A1A] px-6 md:px-20">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center mb-32">
+                <div class="order-2 md:order-1 reveal relative group overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=2070" 
+                         class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" 
+                         alt="Infraestructura de Datos">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-8 uppercase">Análisis de Capital</h2>
+                    <p class="text-3xl md:text-4xl font-cinzel mb-12">El coste anual de la inacción técnica.</p>
+                    
+                    <div class="grid grid-cols-1 gap-8">
+                        <div class="border-l border-[#C5A059]/30 pl-8 py-4">
+                            <span class="block text-[#C5A059] font-cinzel text-4xl mb-2">0%</span>
+                            <span class="text-white/40 text-xs tracking-widest uppercase">Pérdida técnica estimada</span>
+                        </div>
+                        <div class="border-l border-[#C5A059]/30 pl-8 py-4">
+                            <span class="block text-[#C5A059] font-cinzel text-4xl mb-2">90/100</span>
+                            <span class="text-white/40 text-xs tracking-widest uppercase">Score de rendimiento actual</span>
+                        </div>
+                        <div class="border-l border-[#C5A059]/30 pl-8 py-4">
+                            <span class="block text-white font-light text-lg italic">Impacto directo sobre la eficiencia operativa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN EVOLUCIÓN / CTA (NEGRO) -->
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+    <section id="evolucion" class="py-32 bg-black px-6 md:px-20 text-center">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="font-cinzel text-[#C5A059] text-xs tracking-[0.5em] mb-12 uppercase">Decisión Estratégica</h2>
+            <p class="text-3xl md:text-5xl font-cinzel mb-10 leading-tight">Blindar el rendimiento de Eurostars es una obligación soberana.</p>
+            <p class="text-white/60 text-lg mb-16 font-light max-w-2xl mx-auto leading-loose">
+                Una sesión estratégica sin compromiso para determinar con precisión métrica cuánto capital está dejando sobre la mesa por falta de infraestructura de automatización.
+            </p>
+            
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-12 py-5 text-[#C5A059] font-cinzel tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500">
+                RESERVAR LLAMADA ESTRATÉGICA AHORA
+            </a>
+
+            <div class="mt-24 pt-12 border-t border-white/5">
+                <p class="text-[#C5A059] font-cinzel tracking-widest text-[9px] mt-8 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/60 text-[11px] italic">Incentivo Administrativo: Hasta 3000€ vía Kit Digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-20 border-t border-white/5 px-10">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" 
+                 class="h-16 mb-20" 
+                 style="filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);" 
+                 alt="Agencia Lumar">
+            
+            <div class="text-center mb-20">
+                <p class="font-cinzel text-[#C5A059] tracking-[0.3em] text-xl mb-2">DAVID DÍAZ</p>
+                <p class="text-white/40 text-[10px] tracking-[0.4em] uppercase mb-1">CEO — AGENCIA LUMAR</p>
+                <p class="text-white/30 text-[9px] tracking-[0.2em] uppercase font-light">Experto en Estrategia e Infraestructura IA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 text-center w-full max-w-5xl mb-20">
+                <a href="tel:951870392" class="group">
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-2">TELÉFONO FIJO</p>
+                    <p class="text-white/50 group-hover:text-white transition-colors text-xs">951 870 392</p>
+                </a>
+                <a href="https://wa.me/34722714078" target="_blank" class="group">
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-2">WHATSAPP BUSINESS</p>
+                    <p class="text-white/50 group-hover:text-white transition-colors text-xs">722 714 078</p>
+                </a>
+                <a href="https://www.agencialumar.es" target="_blank" class="group">
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-2">WEB OFICIAL</p>
+                    <p class="text-white/50 group-hover:text-white transition-colors text-xs">www.agencialumar.es</p>
+                </a>
+                <a href="mailto:info@agencialumar.es" class="group">
+                    <p class="text-[#C5A059] font-cinzel text-[10px] tracking-widest mb-2">EMAIL CORPORATIVO</p>
+                    <p class="text-white/50 group-hover:text-white transition-colors text-xs">info@agencialumar.es</p>
+                </a>
+            </div>
+
+            <p class="text-[9px] tracking-[0.5em] text-white/20 uppercase">2026 AGENCIA LUMAR. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
