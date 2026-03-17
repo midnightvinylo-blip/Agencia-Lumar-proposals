@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | Servidigest Medical And Surgical Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F8FAFC; color: #1E293B; }
+        .font-heading { font-family: 'Montserrat', sans-serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .teal-text { color: #0F766E; }
+
+        /* Tema Clínica Premium */
+        .bg-card { background-color: #FFFFFF; }
+        .border-soft { border-color: #E2E8F0; }
+        .border-accent { border-color: #0F766E; }
+        
+        .logo-chrome {
+            filter: grayscale(100%) contrast(1) brightness(0.2);
+        }
+
+        /* Transiciones */
+        .fade-bottom { background: linear-gradient(to bottom, transparent, #F8FAFC); }
+        .fade-top { background: linear-gradient(to top, transparent, #FFFFFF); }
+    </style>
+</head>
+<body class="bg-[#F8FAFC] overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-lg border-b border-soft py-6 px-10 flex justify-between items-center text-[10px] tracking-[0.4em] uppercase font-semibold">
+        <div class="font-heading font-bold teal-text text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-slate-500">
+            <a href="#auditoria" class="hover:text-[#0F766E] transition-colors">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#0F766E] transition-colors">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#0F766E] transition-colors">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden bg-white">
+        <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/clinicas/hero/hero-1.png" class="absolute inset-0 w-full h-full object-cover opacity-20 scale-110" alt="Servidigest Medical And Surgical Center">
+        <div class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent z-10 md:w-2/3"></div>
+
+        <div class="relative z-30 text-left px-10 md:px-20 max-w-7xl w-full flex flex-col items-start mt-20">
+            <h1 class="font-heading leading-tight mb-8">
+                <span class="teal-text block text-5xl md:text-7xl font-bold uppercase tracking-tight mb-6">
+                    LA PRÁCTICA DE Servidigest Medical And Surgical Center
+                </span>
+                <span class="text-slate-600 block text-xs md:text-xl tracking-[0.4em] font-light uppercase opacity-90">
+                    La excelencia clínica merece fluidez digital
+                </span>
+            </h1>
+            <div class="reveal mt-12 bg-white/50 backdrop-blur-sm p-6 border-l-4 border-[#0F766E]">
+                <p class="teal-text font-heading tracking-[0.3em] text-[10px] md:text-sm uppercase font-semibold">
+                    INEFICIENCIA OPERATIVA DEL 23% DETECTADA
+                </p>
+            </div>
+        </div>
+        <div class="absolute bottom-0 w-full h-64 fade-bottom z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-10 bg-[#F8FAFC]">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-heading text-3xl md:text-4xl teal-text mb-8 leading-snug uppercase font-bold">EL DIAGNÓSTICO DIGITAL</h2>
+                <div class="space-y-8 text-slate-600 font-light leading-relaxed text-lg">
+                    <p>Mientras la excelencia médica y atención al paciente de <strong>Servidigest Medical And Surgical Center</strong> están más que probadas, su infraestructura digital de captación no refleja esa misma profesionalidad.</p>
+                    <p>Su plataforma actual opera con un <span class="teal-text font-bold uppercase">RENDIMIENTO DE 45/100</span>. Esta fricción actúa como barrera de entrada para nuevos pacientes, penalizando el prestigio de su clínica.</p>
+                    
+                    <div class="border-l border-[#0F766E] pl-6 py-1 bg-white p-4 shadow-sm">
+                        <p class="text-[11px] tracking-[0.2em] font-medium leading-relaxed uppercase opacity-80 text-slate-700">
+                            "Cada minuto de latencia o fricción en el proceso digital es un paciente potencial que acude a la competencia."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-soft reveal shadow-xl rounded-2xl">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/clinicas/secciones/seccion-1.jpeg?t=1773723022923" class="w-full duration-1000 transition-all scale-105 group-hover:scale-100" alt="Instalaciones">
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto-detalle" class="py-32 px-10 bg-white border-y border-soft">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div class="relative group overflow-hidden border border-soft order-2 md:order-1 reveal shadow-xl rounded-2xl">
+                    <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/clinicas/secciones/seccion-2.jpeg" class="w-full duration-1000 transition-all scale-105 group-hover:scale-100" alt="Equipo Profesional">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-heading text-3xl md:text-4xl teal-text mb-8 uppercase font-bold">PACIENTES NO CAPTADOS</h2>
+                    <p class="text-slate-600 font-light text-lg mb-10 leading-relaxed">
+                        El coste de la ineficiencia recae directamente en la salud financiera de la clínica. Una infraestructura deficiente aleja pacientes y satura a su equipo con gestión administrativa manual.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div class="bg-slate-50 p-10 border border-soft rounded-xl">
+                            <div class="teal-text font-heading text-5xl mb-2 font-bold">23%</div>
+                            <div class="text-slate-500 text-[10px] tracking-widest uppercase font-semibold">Fuga de Pacientes Anual</div>
+                        </div>
+                        <div class="bg-slate-50 p-10 border border-soft rounded-xl">
+                            <div class="teal-text font-heading text-5xl mb-2 font-bold">45/100</div>
+                            <div class="text-slate-500 text-[10px] tracking-widest uppercase font-semibold">Salud Digital</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-[#F8FAFC]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24 reveal">
+                <h2 class="font-heading text-4xl md:text-5xl tracking-[0.2em] uppercase mb-4 font-bold text-slate-800">ANÁLISIS DE EFICIENCIA</h2>
+                <div class="w-40 h-[2px] bg-[#0F766E] mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal bg-white border border-soft p-16 text-center shadow-lg hover:shadow-xl hover:border-[#0F766E]/50 transition-all duration-700 rounded-2xl">
+                    <p class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Pérdida de Citas Anual</p>
+                    <p class="text-slate-800 font-heading text-7xl mb-10 font-bold">23%</p>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">Fuga técnica directa por falta de un flujo claro de captación digital y agendamiento.</p>
+                </div>
+                <div class="reveal bg-white border border-soft p-16 text-center shadow-lg hover:shadow-xl hover:border-[#0F766E]/50 transition-all duration-700 rounded-2xl">
+                    <p class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Fuga Operativa</p>
+                    <p class="text-slate-800 font-heading text-7xl mb-10 font-bold">33%</p>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">Tiempo valioso de su equipo dedicado a tareas administrativas en vez de atención al paciente.</p>
+                </div>
+                <div class="reveal bg-[#0F766E] border border-[#0F766E] p-16 text-center shadow-[0_10px_40px_rgba(15,118,110,0.2)] rounded-2xl">
+                    <p class="text-white/80 font-heading text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Estado del Activo</p>
+                    <p class="text-white font-heading text-5xl mb-14 uppercase tracking-widest font-bold">Crítico</p>
+                    <p class="text-white/80 text-sm font-light leading-relaxed">Su ecosistema digital actual no acompaña ni rentabiliza la inversión médica ni la autoridad de sus especialistas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="evolucion" class="py-40 px-6 md:px-20 bg-white text-center border-t border-soft relative overflow-hidden">
+        <div class="max-w-4xl mx-auto reveal">
+            <p class="teal-text font-heading tracking-[0.4em] text-xs mb-10 uppercase font-semibold">Transformación Clínica Inteligente</p>
+            <h2 class="font-heading text-4xl md:text-6xl mb-14 leading-tight uppercase font-bold text-slate-800">SANEAMIENTO DIGITAL</h2>
+            <div class="text-slate-600 text-xl font-light leading-relaxed mb-20 px-4">
+                <p>Implementamos sistemas de Inteligencia Artificial que automatizan la captación, filtrado y agendamiento de pacientes, permitiendo a su equipo centrarse en la práctica clínica.</p>
+            </div>
+            
+            <div class="mb-20 border border-soft bg-slate-50 p-10 rounded-2xl">
+                <p class="teal-text font-heading tracking-[0.3em] text-[11px] uppercase mb-3 font-bold">Subvención Directa Aplicable</p>
+                <p class="text-slate-600 text-sm tracking-[0.1em] uppercase">Bono de optimización de 25.000€ disponible mediante fondos europeos.</p>
+            </div>
+
+            <a href="https://www.agencialumar.es/contacto" class="inline-block bg-[#0F766E] text-white px-16 py-6 font-heading tracking-[0.3em] text-xs hover:bg-slate-900 transition-all duration-500 uppercase font-bold shadow-lg shadow-teal-900/20 rounded-lg">
+                RESERVAR SESIÓN DE DIAGNÓSTICO
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-[#F8FAFC] border-t border-soft pt-32 pb-16 px-10 text-center relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="reveal mb-24 flex flex-col items-center">
+                <div class="flex justify-center mb-10">
+                    <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-14 logo-chrome" alt="LUMAR">
+                </div>
+                
+                <h3 class="font-heading teal-text text-2xl tracking-[0.4em] mb-6 font-bold uppercase">DAVID DÍAZ</h3>
+                
+                <div class="flex flex-col space-y-2 uppercase tracking-[0.3em] font-medium">
+                    <p class="text-slate-600 text-[10px]">DIRECTOR ACADÉMICO — AGENCIA LUMAR</p>
+                    <p class="text-slate-500 text-[9px]">Ingeniería de Captación para Clínicas</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 w-full border-y border-soft py-20 mb-20 text-center">
+                <div class="flex flex-col space-y-5">
+                    <span class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase font-bold">Teléfono</span>
+                    <a href="tel:+34951870392" class="text-slate-500 text-[11px] tracking-[0.1em] hover:text-[#0F766E] font-medium transition-colors">951 870 392</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase font-bold">WhatsApp</span>
+                    <a href="https://wa.me/34722714078" target="_blank" class="text-slate-500 text-[11px] tracking-[0.1em] hover:text-[#0F766E] font-medium transition-colors">722 714 078</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase font-bold">Web</span>
+                    <a href="https://www.agencialumar.es" target="_blank" class="text-slate-500 text-[11px] tracking-[0.1em] hover:text-[#0F766E] font-medium transition-colors lowercase">www.agencialumar.es</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="teal-text font-heading text-[10px] tracking-[0.3em] uppercase font-bold">Email</span>
+                    <a href="mailto:info@agencialumar.es" class="text-slate-500 text-[11px] tracking-[0.1em] hover:text-[#0F766E] font-medium transition-colors lowercase">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <p class="text-slate-400 text-[9px] tracking-[0.4em] uppercase font-medium">
+                2026 AGENCIA LUMAR. INFRAESTRUCTURA DE ALTO RENDIMIENTO.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
