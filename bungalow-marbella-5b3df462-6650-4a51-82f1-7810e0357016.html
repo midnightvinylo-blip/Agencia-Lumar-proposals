@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMAR | Bungalow Marbella</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: #F5F5F1; }
+        .font-luxury { font-family: 'Cinzel', serif; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .gold-text { color: #C5A059; }
+        
+        .logo-chrome {
+            filter: brightness(1.6) saturate(0.15) contrast(1.1) sepia(0.05);
+        }
+    </style>
+</head>
+<body class="bg-[#050505] overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/5 py-6 px-10 flex justify-between items-center text-[10px] tracking-[0.4em] uppercase font-semibold">
+        <div class="font-luxury font-bold gold-text tracking-widest text-2xl">LUMAR</div>
+        <div class="hidden md:flex space-x-12 text-white/50">
+            <a href="#auditoria" class="hover:text-[#C5A059] transition-colors">Auditoría</a>
+            <a href="#impacto" class="hover:text-[#C5A059] transition-colors">Impacto</a>
+            <a href="#evolucion" class="hover:text-[#C5A059] transition-colors">Evolución</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
+        <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/hoteles/hero/hero-1.jpeg" class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale scale-110" alt="Bungalow Marbella">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+
+        <div class="relative z-30 text-center px-6 max-w-7xl w-full flex flex-col items-center mt-20 mx-auto">
+            <h1 class="font-luxury leading-tight mb-8">
+                <span class="gold-text block text-5xl md:text-7xl font-bold uppercase tracking-tight mb-6">
+                    EL PATRIMONIO DE BUNGALOW MARBELLA
+                </span>
+                <span class="text-white block text-base md:text-xl tracking-[0.5em] font-light uppercase opacity-90">
+                    LA EXCELENCIA NO SE HEREDA, SE CONSTRUYE
+                </span>
+            </h1>
+            <div class="reveal mt-16">
+                <p class="gold-text font-luxury tracking-[0.3em] text-[10px] md:text-sm uppercase italic font-medium">
+                    PÉRDIDA TÉCNICA ANUAL DEL 23% DETECTADA
+                </p>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-black z-20"></div>
+    </section>
+
+    <section id="auditoria" class="py-32 px-10 bg-black">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="font-luxury text-3xl md:text-4xl gold-text mb-8 leading-snug uppercase font-bold">EL DIAGNÓSTICO DIGITAL</h2>
+                <div class="space-y-8 text-white/70 font-light leading-relaxed text-lg">
+                    <p>Mientras la excelencia en el servicio y el legado de <strong>Bungalow Marbella</strong> son incuestionables, su infraestructura digital de captación no refleja esa misma soberanía.</p>
+                    <p>Su ecosistema actual opera con un <span class="gold-text font-bold uppercase">RENDIMIENTO DE 45/100</span>. Esta fricción actúa como un sumidero silencioso de ingresos, penalizando la exclusividad de su establecimiento.</p>
+                    
+                    <div class="border-l border-[#C5A059]/30 pl-6 py-1">
+                        <p class="text-[11px] tracking-[0.2em] font-medium leading-relaxed uppercase italic opacity-60 text-white">
+                            "En el mercado del lujo, la demora es el mayor síntoma de obsolescencia. Cada reserva no automatizada es una oportunidad perdida."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden border border-white/5 reveal shadow-2xl">
+                <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/hoteles/secciones/habitaciones/habitacion-1.jpeg" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Habitaciones">
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-black to-[#1A1A1A]"></div>
+
+    <section id="impacto-detalle" class="py-32 px-10 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div class="relative group overflow-hidden border border-white/5 order-2 md:order-1 reveal shadow-2xl">
+                    <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/imagenes%20web/hoteles/secciones/restaurante/restaurante-1.jpeg" class="w-full grayscale group-hover:grayscale-0 duration-1000 transition-all scale-105 group-hover:scale-100" alt="Experiencia Gastronómica">
+                </div>
+                <div class="order-1 md:order-2 reveal">
+                    <h2 class="font-luxury text-3xl md:text-4xl gold-text mb-8 uppercase font-bold">RESERVAS NO CAPTADAS</h2>
+                    <p class="text-white/70 font-light text-lg mb-10 leading-relaxed">
+                        El coste de la ineficiencia se traduce en un Canal Directo debilitado. Depender de intermediarios o de procesos manuales satura a su equipo y diluye sus márgenes operativos.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div class="bg-black/40 p-10 border border-[#C5A059]/20">
+                            <div class="gold-text font-luxury text-5xl mb-2 font-bold">23%</div>
+                            <div class="text-white/40 text-[10px] tracking-widest uppercase font-semibold">Fuga de Reservas Anual</div>
+                        </div>
+                        <div class="bg-black/40 p-10 border border-[#C5A059]/20">
+                            <div class="gold-text font-luxury text-5xl mb-2 font-bold">45/100</div>
+                            <div class="text-white/40 text-[10px] tracking-widest uppercase font-semibold">Salud Digital</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-20 bg-gradient-to-b from-[#1A1A1A] to-black"></div>
+
+    <section id="impacto" class="py-32 px-6 md:px-20 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-24 reveal">
+                <h2 class="font-luxury text-4xl md:text-5xl tracking-[0.3em] uppercase mb-4 font-bold text-white">ANÁLISIS DE CAPITAL</h2>
+                <div class="w-40 h-[1px] bg-[#C5A059] mx-auto opacity-40 mt-6"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal bg-[#1A1A1A] border border-white/5 p-16 text-center shadow-lg hover:shadow-xl hover:border-[#C5A059]/50 transition-all duration-700">
+                    <p class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Coste de Inacción</p>
+                    <p class="text-white font-luxury text-7xl mb-10 font-bold">23%</p>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">Pérdida técnica directa por fricción en el funnel de reserva y falta de asistencia autónoma 24/7.</p>
+                </div>
+                <div class="reveal bg-[#1A1A1A] border border-white/5 p-16 text-center shadow-lg hover:shadow-xl hover:border-[#C5A059]/50 transition-all duration-700">
+                    <p class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Fuga Operativa</p>
+                    <p class="text-white font-luxury text-7xl mb-10 font-bold">19%</p>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">Carga administrativa manual que impide a su staff ofrecer una experiencia personalizada de alto valor.</p>
+                </div>
+                <div class="reveal bg-[#1A1A1A] border border-[#C5A059]/50 p-16 text-center shadow-[0_10px_40px_rgba(197,160,89,0.1)]">
+                    <p class="text-[#C5A059]/80 font-luxury text-[10px] tracking-[0.3em] uppercase mb-10 font-bold">Estado del Activo</p>
+                    <p class="text-white font-luxury text-5xl mb-14 uppercase tracking-widest font-bold">Crítico</p>
+                    <p class="text-white/50 text-sm font-light leading-relaxed">La infraestructura actual no es escalable y compromete el crecimiento del RevPAR y el beneficio neto anual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="evolucion" class="py-40 px-6 md:px-20 bg-black text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto reveal">
+            <p class="gold-text font-luxury tracking-[0.4em] text-xs mb-10 uppercase font-semibold">Inteligencia de Hospitalidad</p>
+            <h2 class="font-luxury text-4xl md:text-6xl mb-14 leading-tight uppercase font-bold text-white">BLINDAJE ESTRATÉGICO</h2>
+            <div class="text-white/60 text-xl font-light leading-relaxed mb-20 px-4">
+                <p>Implementamos arquitecturas de IA que blindan su canal directo, automatizan la atención multilingüe y optimizan la conversión sin intervención humana.</p>
+                
+                <p class="gold-text font-luxury tracking-[0.3em] text-[9px] mt-12 uppercase italic">Subvención Aplicable</p>
+                <p class="text-white/30 text-[11px] italic">Incentivo Administrativo: Hasta 6000€ vía Kit Digital.</p>
+            </div>
+
+            <a href="https://www.agencialumar.es/contacto" class="inline-block border border-[#C5A059] px-16 py-6 gold-text font-luxury tracking-[0.3em] text-xs hover:bg-[#E8E4E0] hover:text-black hover:border-[#E8E4E0] transition-all duration-500 uppercase font-bold">
+                SOLICITAR DESPLIEGUE
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/5 pt-32 pb-16 px-10 text-center relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="reveal mb-24 flex flex-col items-center">
+                <div class="flex justify-center mb-10">
+                    <img src="https://vbsykidfyspdszqaogfb.supabase.co/storage/v1/object/public/logo/logo1.png" class="h-16 mb-2 logo-chrome" alt="LUMAR">
+                </div>
+                
+                <h3 class="font-luxury gold-text text-2xl tracking-[0.5em] mb-6 font-bold uppercase">DAVID DÍAZ</h3>
+                
+                <div class="flex flex-col space-y-2 uppercase tracking-[0.4em] font-medium text-white/40">
+                    <p class="text-[10px]">DIRECTOR ESTRATÉGICO — AGENCIA LUMAR</p>
+                    <p class="text-[9px]">Ingeniería de Captación e Infraestructura IA</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 w-full border-y border-white/5 py-20 mb-20 text-center">
+                <div class="flex flex-col space-y-5">
+                    <span class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase font-bold">Teléfono</span>
+                    <a href="tel:+34951870392" class="text-white/40 text-[11px] tracking-[0.1em] hover:text-[#C5A059] transition-colors">951 870 392</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase font-bold">WhatsApp</span>
+                    <a href="https://wa.me/34722714078" target="_blank" class="text-white/40 text-[11px] tracking-[0.1em] hover:text-[#C5A059] transition-colors">722 714 078</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase font-bold">Web</span>
+                    <a href="https://www.agencialumar.es" target="_blank" class="text-white/40 text-[11px] tracking-[0.1em] hover:text-[#C5A059] transition-colors lowercase">www.agencialumar.es</a>
+                </div>
+                <div class="flex flex-col space-y-5">
+                    <span class="gold-text font-luxury text-[10px] tracking-[0.3em] uppercase font-bold">Email</span>
+                    <a href="mailto:info@agencialumar.es" class="text-white/40 text-[11px] tracking-[0.1em] hover:text-[#C5A059] transition-colors lowercase">info@agencialumar.es</a>
+                </div>
+            </div>
+
+            <p class="text-white/20 text-[9px] tracking-[0.5em] uppercase font-medium">
+                2026 AGENCIA LUMAR. BLACK LABEL — PROTOCOLO DE EXCELENCIA.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
